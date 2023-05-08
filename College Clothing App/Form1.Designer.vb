@@ -86,6 +86,7 @@ Partial Class FrmClothingApp
         Me.txtquantityentry.Name = "txtquantityentry"
         Me.txtquantityentry.Size = New System.Drawing.Size(100, 29)
         Me.txtquantityentry.TabIndex = 3
+        Me.txtquantityentry.Text = "k"
         '
         'btnClear
         '
@@ -168,7 +169,6 @@ Partial Class FrmClothingApp
         Me.lblThePrice.Size = New System.Drawing.Size(111, 26)
         Me.lblThePrice.TabIndex = 10
         Me.lblThePrice.Text = "lblPrice"
-        Me.lblThePrice.Visible = False
         '
         'FrmClothingApp
         '
