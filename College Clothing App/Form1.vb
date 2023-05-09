@@ -46,7 +46,7 @@
                 decPrice = 30D
                 strOrder = "CSU Hoodie"
             ElseIf rdbtnTShirt.Checked Then
-                decPrice = 10D
+                decPrice = 20D
                 strOrder = "CSU T-Shirt"
 
             End If
@@ -61,7 +61,9 @@
 
 
 
-            MsgBox(decEntry)
+            'MsgBox(decEntry)
+            decFinalCost = decPrice * (decEntry)
+            'MsgBox(decFinalCost)
 
 
 

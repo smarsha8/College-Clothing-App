@@ -64,7 +64,7 @@ Partial Class FrmClothingApp
         '
         Me.lbl50percentoff.BackColor = System.Drawing.Color.Red
         Me.lbl50percentoff.Font = New System.Drawing.Font("Ravie", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl50percentoff.Location = New System.Drawing.Point(299, 336)
+        Me.lbl50percentoff.Location = New System.Drawing.Point(299, 343)
         Me.lbl50percentoff.Name = "lbl50percentoff"
         Me.lbl50percentoff.Size = New System.Drawing.Size(275, 37)
         Me.lbl50percentoff.TabIndex = 2
@@ -154,10 +154,10 @@ Partial Class FrmClothingApp
         Me.rdbtnTShirt.Font = New System.Drawing.Font("Ravie", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.rdbtnTShirt.Location = New System.Drawing.Point(411, 549)
         Me.rdbtnTShirt.Name = "rdbtnTShirt"
-        Me.rdbtnTShirt.Size = New System.Drawing.Size(222, 26)
+        Me.rdbtnTShirt.Size = New System.Drawing.Size(227, 26)
         Me.rdbtnTShirt.TabIndex = 9
         Me.rdbtnTShirt.TabStop = True
-        Me.rdbtnTShirt.Text = "$10.00 CSU T-Shirt"
+        Me.rdbtnTShirt.Text = "$20.00 CSU T-Shirt"
         Me.rdbtnTShirt.UseVisualStyleBackColor = False
         '
         'lblThePrice
